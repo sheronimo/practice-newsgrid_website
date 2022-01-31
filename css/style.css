@@ -80,6 +80,10 @@ p {
 	color: white;
 }
 
+.card {
+	background: white;
+	padding: 1rem;
+}
 .btn {
 	color: white;
 	background: var(--dark);
