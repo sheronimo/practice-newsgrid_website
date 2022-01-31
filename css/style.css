@@ -84,6 +84,19 @@ p {
 	background: white;
 	padding: 1rem;
 }
+
+.bg-red {
+	background: var(--red);
+}
+
+.bg-orange {
+	background: var(--orange);
+}
+
+.bg-dark {
+	background: var(--dark);
+}
+
 .btn {
 	color: white;
 	background: var(--dark);
