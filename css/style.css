@@ -59,6 +59,7 @@ h6 {
 }
 
 /* GLOBAL */
+
 .container {
 	max-width: var(--max-width);
 	margin: auto;
@@ -113,4 +114,28 @@ h6 {
 .current {
 	background: var(--red);
 	color: white;
+}
+
+/* CATEGORY */
+
+.category {
+	display: inline-block;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.55rem;
+	padding: 0.4rem 0.6rem;
+	border-radius: 15px;
+	margin-bottom: 0.55rem;
+}
+
+.category-sports {
+	background: var(--sports-color);
+}
+
+.category-ent {
+	background: var(--ent-color);
+}
+
+.category-tech {
+	background: var(--tech-color);
 }
