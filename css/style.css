@@ -73,9 +73,30 @@ p {
 	overflow: hidden;
 }
 
+.py-1p5 {
+	padding: 1.5rem 0;
+}
+
 .py-2 {
 	padding: 2rem 0;
 }
+
+.py-3 {
+	padding: 3rem 0;
+}
+
+.p-1p5 {
+	padding: 1.5rem;
+}
+
+.p-2 {
+	padding: 2rem;
+}
+
+.p-3 {
+	padding: 3rem;
+}
+
 .text-white {
 	color: white;
 }
