@@ -1,0 +1,59 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap");
+
+/* VARIABLES */
+
+:root {
+	--red: #c72727;
+	--orange: #f99500;
+	--light: #f3f3f3;
+	--dark: #333;
+	--max-width: 1100px;
+}
+
+.category {
+	--sports-color: var(--orange);
+	--ent-color: #a66bbe;
+	--tech-color: #009cff;
+}
+
+/* BASE/RESET */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: "Lato", sans-serif;
+	line-height: 1.5;
+	background: var(--light);
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: var(--dark);
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Anton", sans-serif;
+	margin-bottom: 0.55rem;
+	line-height: 1.3;
+}
