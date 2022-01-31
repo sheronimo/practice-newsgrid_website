@@ -228,3 +228,27 @@ p {
 .showcase-desc {
 	margin-bottom: 1rem;
 }
+
+/* ARTICLES */
+
+.articles-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+}
+
+.articles-grid > *:first-child,
+.articles-grid > *:last-child {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+	align-items: center;
+}
+
+.articles-grid > *:first-child {
+	grid-column: 1 / span 2;
+}
+
+.articles-grid > *:last-child {
+	grid-column: 2 / span 2;
+}
