@@ -142,6 +142,16 @@ p {
 	width: 100%;
 }
 
+.list-item {
+	padding: 0.5rem 0;
+	border-bottom: 1px dotted #555;
+	width: 90%;
+}
+
+.list-link:hover {
+	color: var(--red);
+}
+
 /* NAVBAR */
 
 .navbar {
