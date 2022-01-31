@@ -73,6 +73,9 @@ p {
 	overflow: hidden;
 }
 
+.py-2 {
+	padding: 2rem 0;
+}
 .text-white {
 	color: white;
 }
