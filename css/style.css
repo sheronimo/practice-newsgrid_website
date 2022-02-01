@@ -66,6 +66,7 @@ p {
 
 /* GLOBAL */
 
+/* Utilities */
 .container {
 	max-width: var(--max-width);
 	margin: auto;
@@ -73,6 +74,36 @@ p {
 	overflow: hidden;
 }
 
+.card {
+	background: white;
+	padding: 1rem;
+}
+
+.btn {
+	color: white;
+	background: var(--dark);
+	display: inline-block;
+	padding: 0.5rem 1.5rem;
+	cursor: pointer;
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+
+.list-item {
+	padding: 0.5rem 0;
+	border-bottom: 1px dotted #555;
+	width: 90%;
+}
+
+.btn-block {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+/* Spacing */
 .py-1p5 {
 	padding: 1.5rem 0;
 }
@@ -97,13 +128,14 @@ p {
 	padding: 3rem;
 }
 
-.text-white {
-	color: white;
+/* Text Overrides */
+.l-heading {
+	font-size: 3rem;
 }
 
-.card {
-	background: white;
-	padding: 1rem;
+/* Color Overrides */
+.text-white {
+	color: white;
 }
 
 .bg-red {
@@ -118,34 +150,12 @@ p {
 	background: var(--dark);
 }
 
-.btn {
-	color: white;
-	background: var(--dark);
-	display: inline-block;
-	padding: 0.5rem 1.5rem;
-	cursor: pointer;
-}
-
-.btn:hover {
-	opacity: 0.9;
-}
-
 .btn-red {
 	background: var(--red);
 }
 
 .btn-orange {
 	background: var(--orange);
-}
-
-.btn-block {
-	width: 100%;
-}
-
-.list-item {
-	padding: 0.5rem 0;
-	border-bottom: 1px dotted #555;
-	width: 90%;
 }
 
 .list-link:hover {
@@ -201,7 +211,7 @@ p {
 	color: white;
 }
 
-/* CATEGORY */
+/* CATEGORIES */
 
 .category {
 	display: inline-block;
