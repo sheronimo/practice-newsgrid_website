@@ -306,6 +306,20 @@ p {
 	grid-column: 2 / span 2;
 }
 
+/* ARTICLE PAGE */
+
+.metadata {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: var(--light);
+	padding: 0.5rem;
+}
+
+.metadata-cat {
+	margin-top: 0.4rem;
+}
+
 /* FOOTER */
 .footer-logo {
 	width: 150px;
