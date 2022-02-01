@@ -87,6 +87,12 @@ p {
 	cursor: pointer;
 }
 
+.btn-block {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
 .btn:hover {
 	opacity: 0.9;
 }
@@ -97,10 +103,15 @@ p {
 	width: 90%;
 }
 
-.btn-block {
-	display: block;
-	width: 100%;
-	text-align: center;
+.page-grid {
+	display: grid;
+	grid-template-columns: 5fr 2fr;
+	margin: 2rem 0;
+	grid-gap: 1.5rem;
+}
+
+.page-grid > *:first-child {
+	grid-row: 1 / span 3;
 }
 
 /* Spacing */
